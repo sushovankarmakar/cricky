@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class Analyst extends SupportStaff {
+public class TvPresenter extends BroadcastOfficial {
+
 
 }

@@ -1,6 +1,5 @@
 package com.cricket.cricky.model.match;
 
-import com.cricket.cricky.model.people.BroadcastOfficial;
 import com.cricket.cricky.model.people.GroundStaff;
 import com.cricket.cricky.model.people.MatchOfficial;
 import com.cricket.cricky.model.people.Team;
@@ -28,5 +27,5 @@ public class Match {
   private Tournament tournament;
   private Team winningTeam;
   private Team loosingTeam;
-  private List<BroadcastOfficial> commentators;
+
 }
