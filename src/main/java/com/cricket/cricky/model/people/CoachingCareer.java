@@ -1,6 +1,6 @@
 package com.cricket.cricky.model.people;
 
-import com.cricket.cricky.model.people.enums.MatchFormat;
+import com.cricket.cricky.model.match.enums.MatchFormat;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;

@@ -15,10 +15,9 @@ public class Stadium {
   private LocalDate openedAt;
   private int capacity;
   private List<String> ends;
-  private Location location;
-  private Team homeTeam;
+  private Location address;
+  private List<Team> homeTeams;
   private boolean isFloodLightPresent;
   private List<Scorer> scorers;
   private List<PitchCurator> pitchCurators;
-
 }

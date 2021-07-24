@@ -1,4 +1,4 @@
-package com.cricket.cricky.model.people.enums;
+package com.cricket.cricky.model.match.enums;
 
 public enum MatchFormat {
   TEST,
