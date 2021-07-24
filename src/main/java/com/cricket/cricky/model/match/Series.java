@@ -8,12 +8,11 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import lombok.Builder;
 import lombok.Data;
 
-@Builder
+//@Builder
 @Data
-public class Tournament {
+public class Series {
 
   //private final int id;
   private final String name;
@@ -23,13 +22,13 @@ public class Tournament {
   private final List<Stadium> venues = new ArrayList<>();
   private final LocalDateTime startTime;
   private final LocalDateTime endTime;
-  //private List<Team> teamStandingPositions;
-  //private List<Stat> stats;
+  private PointsTable pointsTable;
   //private Map<AwardType, Person> awards;
   private Association host;
   private Map<String, Broadcaster> broadcasters; // country based broadcaster
+  //private Statistics statistics;
 
-  public Tournament(String name, LocalDateTime startTime, LocalDateTime endTime) {
+  public Series(String name, LocalDateTime startTime, LocalDateTime endTime) {
     this.name = name;
     this.startTime = startTime;
     this.endTime = endTime;
